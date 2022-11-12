@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.app__Header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.select__Room--container {
+    margin: 0px auto;
+    width: 60%;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+
+/* @media (max-width: 600px) {
+    .select__Room--container {
+        margin: 0 auto;
+        margin-left: -15px;
+        width: 100%;
+        background-color: white;
+        padding: 10px 20px;
+        box-shadow: none;
+        border-radius: none;
+    }
+} */
+
+
+.Floor--container {
+    height: max-content;
+    /* padding: 10px 40px 40px 40px; */
+    border: 0.2px solid rgb(209, 209, 209);
+    border-radius: 5px;
+}
+
+.Floor--container p {
+    color: rgb(185, 185, 185);
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.Floor--container h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.third__navBar {
+    border-bottom: 0.2px solid rgb(209, 209, 209);
+    padding: 5px 40px
+}
+
+.third__Floor--body {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+.box__container {
+    display: flex;
+    gap: 5px;
+}
+
+.third__Floor--box {
+    /* padding: 0px 24px 0px 24px; */
+    cursor: pointer;
+    width: 90px;
+    height: fit-content;
+    background-color: beige;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.third__Floor--box.active {
+    background-color: rgb(191, 235, 191);
+    border: 1px solid rgb(15, 166, 15);
+}
+
+.third__Floor--box h5 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.third__Floor--box h6 {
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.second__navBar {
+    border-bottom: 0.2px solid rgb(209, 209, 209);
+    padding: 5px 40px
+}
+
+.second__Floor--body {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+.box__container {
+    display: flex;
+    gap: 5px;
+}
+
+.second__Floor--box {
+    /* padding: 0px 24px 0px 24px; */
+    cursor: pointer;
+    width: 90px;
+    height: fit-content;
+    background-color: beige;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.second__Floor--box.active {
+    background-color: rgb(191, 235, 191);
+    border: 1px solid rgb(15, 166, 15);
+}
+
+.second__Floor--box h5 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.second__Floor--box h6 {
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 0px;
+}
